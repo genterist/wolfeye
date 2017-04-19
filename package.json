@@ -1,7 +1,7 @@
 {
-  "name": “wolfeye”,
-  "version": “0.0.1”,
-  "description": “A model modeling the behavior of another model”,
+  "name": "wolfeye",
+  "version": "0.0.2",
+  "description": "A model modeling the behavior of another model",
   "main": "./server/index.js",
   "repository": {
     "type": "git",
@@ -10,8 +10,8 @@
   "author": "IBM Corp.",
   "contributors": [
     {
-      "name": “Tam Nguyen“,
-      "email": “tam.nguyen@ncsu.edu”
+      "name": "Tam Nguyen",
+      "email": "Tam.Nguyen@ncsu.edu"
     },
     {
       "name": "James Zhang",
