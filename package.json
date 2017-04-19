@@ -1,7 +1,7 @@
 {
   "name": “wolfeye”,
   "version": “0.0.1”,
-  "description": “A model modeling the behavior of another model.”,
+  "description": “A model modeling the behavior of another model”,
   "main": "./server/index.js",
   "repository": {
     "type": "git",
