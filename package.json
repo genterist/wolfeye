@@ -27,7 +27,13 @@
     "url": "https://github.com/genterist/wolfeye/issues"
   },
   "scripts": {
-    "start": "node ./server/index.js"
+    "prepublish": "npm run build",
+    "autofix": "eslint --fix .",
+    "build": "./node_modules/.bin/gulp",
+    "dev": "./node_modules/.bin/gulp serve",
+    "lint": "eslint .",
+    "start": "node ./server/index.js",
+    "validate": "npm ls"
   },
   "dependencies": {
     "babel-plugin-transform-object-assign": "^6.22.0",
@@ -46,6 +52,9 @@
     "express-rate-limit": "^2.6.0",
     "express-secure-only": "^0.2.1",
     "extend": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.30",
+    "gulp-sass": "^3.1.0",
     "helmet": "^3.4.1",
     "jquery": "^3.1.1",
     "minifyify": "^7.3.5",
@@ -69,5 +78,11 @@
   },
   "engines": {
     "node": ">=6.0",
+    "npm": ">=3.0"
   },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.10.0",
+    "eslint": "^3.16.1"
+  }
 }

@@ -10,5 +10,6 @@ applications:
   name: wolfeye
   host: wolfeye
   disk_quota: 1024M
+  command: npm start
   services:
   - wolfeye-cloudantNoSQLDB
