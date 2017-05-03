@@ -5,7 +5,6 @@ declared-services:
 applications:
 - path: .
   memory: 512M
-  instances: 1
   domain: mybluemix.net
   name: wolfeye
   host: wolfeye
